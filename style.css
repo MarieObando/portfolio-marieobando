@@ -1,0 +1,66 @@
+/* Type de la pagina */
+body {
+    font-family: 'Yeseva One', cursive;
+}
+
+/* fin Type de la pagina */
+
+body {
+    background-color: #D9C5AD;
+}
+
+
+/* nav style*/
+
+h1 {
+
+padding-top: 30px;
+
+}
+
+section header {
+background-color: #A6554E;
+
+}
+
+.nav-link {
+
+    color: black;
+}
+
+
+
+
+/* footer redes*/
+
+footer {
+
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    display: grid;
+    width: 1349px;
+    height: 250px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-template-rows: 3fr 1fr;
+    grid-row-gap: 10px;
+    justify-items: center;
+    background-color: #bf8173;
+}
+
+footer div {
+
+    font-size: 18px;
+    padding: 30px;
+
+}
+
+footer p {
+
+    width: 400px;
+
+}
+
+footer img {
+    width: 40px;
+}
