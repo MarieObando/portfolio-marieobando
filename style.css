@@ -25,9 +25,10 @@ h1 {
 
 }
 
-section header {
-    background-color: #A6554E;
 
+
+header nav {
+    background-color: #660000;
 }
 
 .nav-link {
@@ -82,16 +83,24 @@ footer img {
     width: 30px;
 }
 
+footer div .col {
+
+    padding:20px;
+}
+
 footer {
 
-    margin: 20px;
+    margin: 0px;
+    height: 200px;
+    background-color: #6600009a;
 }
 
 footer p {
 
 
-    justify-content: right;
-    margin: 5px;
+    font-family: 'Mukta Malar', sans-serif;
+    color: white;
+    padding-top: 70px;
 
 }
 
@@ -106,6 +115,10 @@ footer p {
 }
 
 /*Info*/
+
+.bodyinfo {
+    background-color: #CCCCCC;
+}
 
 
 #infotext {
@@ -143,14 +156,14 @@ footer p {
 .column {
     flex: 25%;
     max-width: 33.3%;
-    padding: 0 4px;
+    padding: 0 4px 4px 8px;
 }
 
 .column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-    filter: grayscale(1) brightness(0.5);
+    filter: brightness(0.5);
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s linear;
