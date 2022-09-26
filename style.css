@@ -3,23 +3,29 @@ body {
     font-family: 'Yeseva One', cursive;
 }
 
+@media screen and (max-width: 560px) {
+
+    body {
+        background-color: #c48a84d5;
+    }
+
+
+}
+
 /* fin Type de la pagina */
 
-body {
-    background-color: #D9C5AD;
-}
 
 
 /* nav style*/
 
 h1 {
 
-padding-top: 30px;
+    padding-top: 30px;
 
 }
 
 section header {
-background-color: #A6554E;
+    background-color: #A6554E;
 
 }
 
@@ -28,39 +34,106 @@ background-color: #A6554E;
     color: black;
 }
 
+/* sacar las vinietas y numero con este llamado*/
+ul li {
+    list-style: none;
+    color: black;
+}
+
+
+
+
+
 
 
 
 /* footer redes*/
 
-footer {
 
-    justify-content: space-evenly;
-    align-content: space-evenly;
-    display: grid;
-    width: 1349px;
-    height: 250px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 10px;
-    grid-template-rows: 3fr 1fr;
-    grid-row-gap: 10px;
-    justify-items: center;
-    background-color: #bf8173;
+/*
+
+    footer {
+
+       
+        display: grid;
+        width: 1349px;
+        height: 200px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 0px;
+        grid-template-rows: 3fr 1fr;
+        grid-row-gap: 10px;
+        justify-items:center;
+        background-color: #bf8173;
+    }
+
+    footer div {
+
+        font-size: 18px;
+        padding: 30px;
+
+    }
+
+    */
+
+
+    
+footer img {
+    width: 30px;
 }
 
-footer div {
+footer {
 
-    font-size: 18px;
-    padding: 30px;
-
+    margin: 20px;
 }
 
 footer p {
 
-    width: 400px;
+
+    justify-content: right;
+    margin: 5px;
 
 }
 
-footer img {
-    width: 40px;
+@media screen and (max-width: 560px) {
+
+    footer p {
+
+        font-size: 8pt;
+    }
+
+
+}
+
+
+
+
+
+/*Tienda*/
+
+
+
+
+ul.storesubcontent {
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 35px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+li.storesubcontent a {
+
+
+    text-decoration: none;
+    color: black;
+    margin: 12px;
+    font-size: 25pt;
+
+
+
 }
