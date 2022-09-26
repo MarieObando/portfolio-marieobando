@@ -105,6 +105,31 @@ footer p {
 
 }
 
+/*Info*/
+
+
+#infotext {
+
+    font-family: 'Mukta Malar', sans-serif;
+    padding: 10px;
+    
+}
+
+@media screen and (max-width: 560px) {
+
+    #infotext {
+
+        font-size: 10pt;
+    }
+
+}
+
+
+
+
+
+
+
 
 /*Proyectos*/
 
