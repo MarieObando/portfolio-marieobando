@@ -5,11 +5,6 @@ body {
 
 @media screen and (max-width: 560px) {
 
-    body {
-        background-color: #c48a84d5;
-    }
-
-
 }
 
 /* fin Type de la pagina */
@@ -22,14 +17,13 @@ h1 {
 
     padding-top: 30px;
     padding-left: 30px;
+    color: #660000;
 
 }
 
 
 
-header nav {
-    background-color: #660000;
-}
+
 
 .nav-link {
 
@@ -43,7 +37,9 @@ ul li {
 }
 
 
-
+section header h1 {
+    background-color: white;
+}
 
 
 
@@ -116,15 +112,20 @@ footer p {
 
 /*Info*/
 
-.bodyinfo {
+.about-section {
+    padding: 50px;
+    text-align: center;
     background-color: #CCCCCC;
-}
+    color:#660000;
+  }
+
 
 
 #infotext {
 
     font-family: 'Mukta Malar', sans-serif;
     padding: 10px;
+    background-color: #CCCCCC;
     
 }
 
@@ -236,4 +237,18 @@ li.storesubcontent a {
 
 
 
+}
+
+
+/*Contacto*/
+
+section.bloquecontact {
+
+    background-color: #CCCCCC;
+
+}
+
+.enviarbt {
+
+    margin-bottom: 50px;
 }
