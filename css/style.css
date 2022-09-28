@@ -4,7 +4,7 @@ body {
 }
 
 
-/* type desde folder */ 
+/* type desde folder */
 
 @font-face {
     font-family: 'Durer';
@@ -29,7 +29,7 @@ h1 {
 
 nav .navbar {
 
-margin-top: 20px;
+    margin-top: 20px;
 
 
 }
@@ -111,8 +111,8 @@ footer {
 
     margin: 0px;
     height: 200px;
-    background: rgb(250,247,247);
-    background: linear-gradient(180deg, rgba(250,247,247,1) 0%, rgba(102,0,0,0.7091036243599003) 64%); 
+    background: rgb(250, 247, 247);
+    background: linear-gradient(180deg, rgba(250, 247, 247, 1) 0%, rgba(102, 0, 0, 0.7091036243599003) 64%);
 }
 
 footer p {
@@ -164,7 +164,7 @@ footer p {
 .about-section {
     padding: 50px;
     margin: 10px;
-    text-align:justify;
+    text-align: justify;
     background-color: #cccccc69;
     border-radius: 5%;
     color: #660000;
@@ -294,6 +294,10 @@ footer p {
     filter: grayscale(0);
 }
 
+
+
+
+
 @media screen and (max-width: 800px) {
     .column {
         flex: 50%;
@@ -375,8 +379,8 @@ li.storesubcontent a {
 .tienda-section {
     padding: 50px;
     text-align: center;
-    background: rgb(250,247,247);
-    background: linear-gradient(180deg, rgba(250,247,247,1) 0%, rgba(102,0,0,0.7091036243599003) 64%);
+    background: rgb(250, 247, 247);
+    background: linear-gradient(180deg, rgba(250, 247, 247, 1) 0%, rgba(102, 0, 0, 0.7091036243599003) 64%);
     color: #660000;
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -387,7 +391,7 @@ li.storesubcontent a {
     font-family: 'Mukta Malar', sans-serif;
     padding: 10px;
     font-size: 20pt;
-  
+
 
 }
 
@@ -398,15 +402,17 @@ li.storesubcontent a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-content: flex-end;
 
 }
+
+
 
 .containerfototienda img {
 
     width: 400px
-
 }
+
 
 @media screen and (max-width: 810px) {
 
@@ -429,8 +435,8 @@ li.storesubcontent a {
 
 section.bloquecontact {
 
-    background: rgb(250,247,247);
-    background: linear-gradient(180deg, rgba(250,247,247,1) 0%, rgba(102,0,0,0.7091036243599003) 64%);
+    background: rgb(250, 247, 247);
+    background: linear-gradient(180deg, rgba(250, 247, 247, 1) 0%, rgba(102, 0, 0, 0.7091036243599003) 64%);
     padding: 20px;
 
 }
@@ -444,7 +450,7 @@ section h2 {
 
     padding-top: 40px;
     color: #660000;
-    
+
 }
 
 p.text-center {
