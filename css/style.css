@@ -3,6 +3,14 @@ body {
     font-family: 'Yeseva One', cursive;
 }
 
+
+/* type desde folder */ 
+
+@font-face {
+    font-family: 'Durer';
+    src: url(../font/Durer.ttf);
+}
+
 /* fin Type de la pagina */
 
 
@@ -13,7 +21,16 @@ h1 {
     padding-top: 30px;
     padding-left: 30px;
     color: #660000;
-    height: 150px;
+    height: 200px;
+    font-size: 100pt;
+    border-bottom: #660000 solid;
+
+}
+
+nav .navbar {
+
+margin-top: 20px;
+font-size: 20pt;
 
 }
 
@@ -40,6 +57,37 @@ section header h1 {
     background-color: white;
 }
 
+/*Marque personalizacion*/
+
+marquee {
+
+    font-size: 80pt;
+    border: 2px #660000 solid;
+
+}
+
+/*responsive h1 index y marquee */
+
+
+@media screen and (max-width: 810px) {
+
+    h1 {
+
+        font-size: 40pt;
+    }
+
+    marquee {
+
+        font-size: 40pt;
+
+    }
+
+
+}
+
+
+
+
 
 
 
@@ -60,7 +108,8 @@ footer {
 
     margin: 0px;
     height: 200px;
-    background-color: #6600009a;
+    background: rgb(250,247,247);
+    background: linear-gradient(180deg, rgba(250,247,247,1) 0%, rgba(102,0,0,0.7091036243599003) 64%); 
 }
 
 footer p {
@@ -99,7 +148,7 @@ footer p {
 
 .about-section {
     padding: 50px;
-    text-align: center;
+    text-align:justify;
     background-color: #CCCCCC;
     color: #660000;
     display: grid;
@@ -108,13 +157,24 @@ footer p {
 
 
 
-#infotext {
+.infotext {
 
     font-family: 'Mukta Malar', sans-serif;
     padding: 10px;
+    font-size: 20px;
 
 
 }
+
+.infotext .mainline {
+
+    font-family: 'Durer', sans-serif;
+    padding: 10px;
+    font-size: 30px;
+
+}
+
+
 
 
 @keyframes float {
@@ -351,7 +411,9 @@ li.storesubcontent a {
 
 section.bloquecontact {
 
-    background-color: #660000;
+    background: rgb(250,247,247);
+    background: linear-gradient(180deg, rgba(250,247,247,1) 0%, rgba(102,0,0,0.7091036243599003) 64%);
+    padding: 20px;
 
 }
 
@@ -362,13 +424,16 @@ section.bloquecontact {
 
 section h2 {
 
-    padding-top: 20px;
-    color: white;
+    padding-top: 40px;
+    color: #660000;
+    
 }
 
 p.text-center {
 
-    color: white;
+    color: #660000;
+    font-size: 20px;
+    font-family: 'Durer', sans-serif;
 }
 
 #contact-form {
